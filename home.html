@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script defer src="index.js"></script>
+</head>
+<body>
+<h1 style="margin-bottom: 0">Coordinate Generator</h1>
+<small>Made by Atophite</small> <br>
+<small>Used for this mod:</small>
+
+
+<form id="coordinatesForm" style="margin-top: 20px">
+  <label for="x1">Point 1:</label>
+  X: <input type="number" id="x1" step="any"> Y: <input type="number" id="y1" step="any"><br>
+
+  <label for="x2">Point 2:</label>
+  X: <input type="number" id="x2" step="any"> Y: <input type="number" id="y2" step="any"><br>
+
+  <label for="x3">Point 3:</label>
+  X: <input type="number" id="x3" step="any"> Y: <input type="number" id="y3" step="any"><br>
+
+  <label for="x4">Point 4:</label>
+  X: <input type="number" id="x4" step="any"> Y: <input type="number" id="y4" step="any"><br>
+</form>
+<small>Use the form or use the text box</small>
+<div>
+    <div>
+        <label for="coordinatesBox">Coordinates Box</label>
+
+    </div>
+    <textarea id="coordinatesBox" placeholder="7327x9786 7813x9788 8204x10585 7393x10549" cols="15px" rows="10"></textarea>
+
+</div>
+
+
+<button id="generateButton">Generate</button>
+
+
+
+<h2>Result:</h2>
+<p id="result"></p>
+</body>
+</html>
